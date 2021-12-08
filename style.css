@@ -19,7 +19,7 @@ body {
 }
 
 .left {
-    background: url(img/1500.jpg) no-repeat;
+    background: url(1500.jpg) no-repeat;
     /*  background-size: cover; */
     width: 14%;
     /* width: 257px; */
@@ -84,19 +84,19 @@ body {
 }
 
 .social-insta {
-    background: url(img/insta.png) no-repeat;
+    background: url(insta.png) no-repeat;
     width: 75px;
     height: 74px;
 }
 
 .social-what {
-    background: url(/img/what.png) no-repeat;
+    background: url(what.png) no-repeat;
     width: 75px;
     height: 74px;
 }
 
 .social-telega {
-    background: url(/img/telega.png) no-repeat;
+    background: url(telega.png) no-repeat;
     width: 75px;
     height: 74px;
 }
