@@ -1,0 +1,168 @@
+body {
+    width: 100%;
+    margin: auto;
+    /*   font-family: 'CM _ GARDEN _ R'; */
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1;
+    font-weight: 500;
+}
+
+.container {
+    /*  background: url(/img/Заглушка.jpg) no-repeat; */
+    /*   background-size: cover;
+    background-attachment: fixed; */
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    /*  justify-content: center; */
+    /* align-items: center; */
+}
+
+.left {
+    background: url(/img/1500.jpg) no-repeat;
+    /*  background-size: cover; */
+    width: 14%;
+    /* width: 257px; */
+    min-height: 100vh;
+    /* background-color: #252525; */
+}
+
+.right {
+    width: 86%;
+    margin-top: 5vh;
+}
+
+.title-social {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.h2-text {
+    /*    padding-top: 20vh; */
+    width: 40vw;
+    /* background-color: blue; */
+    text-align: center;
+}
+
+.right-text {
+    font-size: 37px;
+    color: #171817;
+    margin: 10px 0;
+}
+
+.right-text-uppercase {
+    font-size: 37px;
+    text-transform: uppercase;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #171817;
+    margin: 10px 0;
+}
+
+.social {
+    /*  background-color: rgb(230, 33, 33); */
+    /* height: 35vh; */
+    margin: 2vw;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.social-iwt {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.social-ftov {
+    width: 25vw;
+    display: flex;
+    justify-content: space-between;
+    margin: 2vw;
+}
+
+.social-insta {
+    background: url(/img/insta.png) no-repeat;
+    width: 75px;
+    height: 74px;
+}
+
+.social-what {
+    background: url(/img/what.png) no-repeat;
+    width: 75px;
+    height: 74px;
+}
+
+.social-telega {
+    background: url(/img/telega.png) no-repeat;
+    width: 75px;
+    height: 74px;
+}
+
+.social-face {
+    background: url(/img/face.png) no-repeat;
+    width: 75px;
+    height: 74px;
+}
+
+.social-twit {
+    background: url(/img/twit.png) no-repeat;
+    width: 75px;
+    height: 74px;
+}
+
+.social-ok {
+    background: url(/img/ok.png) no-repeat;
+    width: 75px;
+    height: 74px;
+}
+
+.social-vk {
+    background: url(/img/vk.png) no-repeat;
+    width: 75px;
+    height: 74px;
+}
+
+.repair {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+    margin-right: 5vh;
+}
+
+.repair-text {
+    font-size: 27.8px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #107c10;
+}
+
+
+/* .main-text {
+    font-size: xx-large;
+    color: black;
+}
+
+.main-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    width: 200px;
+    height: 100px;
+    margin: 10px;
+    border-radius: 20px;
+    background-color: chartreuse;
+    border: 3px solid darkgreen;
+}
+
+a {
+    text-decoration: none;
+    color: darkgreen;
+    font-size: x-large;
+} */
