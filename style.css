@@ -102,25 +102,25 @@ body {
 }
 
 .social-face {
-    background: url(/img/face.png) no-repeat;
+    background: url(face.png) no-repeat;
     width: 75px;
     height: 74px;
 }
 
 .social-twit {
-    background: url(/img/twit.png) no-repeat;
+    background: url(twit.png) no-repeat;
     width: 75px;
     height: 74px;
 }
 
 .social-ok {
-    background: url(/img/ok.png) no-repeat;
+    background: url(ok.png) no-repeat;
     width: 75px;
     height: 74px;
 }
 
 .social-vk {
-    background: url(/img/vk.png) no-repeat;
+    background: url(vk.png) no-repeat;
     width: 75px;
     height: 74px;
 }
