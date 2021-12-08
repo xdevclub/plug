@@ -19,7 +19,7 @@ body {
 }
 
 .left {
-    background: url(/img/1500.jpg) no-repeat;
+    background: url(img/1500.jpg) no-repeat;
     /*  background-size: cover; */
     width: 14%;
     /* width: 257px; */
