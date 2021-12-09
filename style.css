@@ -125,6 +125,62 @@ a {
     border-radius: 50%;
 }
 
+ /*Mobile first */
+    
+    @media screen and (max-width: 479px) {
+        /* стили для телефонов - начало */
+        .left {
+            background-size: cover;
+            width: 25%;
+        }
+        .right {
+            width: 75%;
+            margin-top: 5vh;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-direction: column;
+        }
+        .title-social {
+            width: auto;
+        }
+        .social {
+            margin-top: 3vh;
+        }
+        a {
+            margin-left: 0vh;
+        }
+        .instagram,
+        .telegram,
+        .facebook,
+        .twitter,
+        .ok {
+            margin-right: 2vh;
+        }
+        .right-text {
+            font-size: 15px;
+        }
+        .right-text-uppercase {
+            font-size: 22px;
+        }
+        .repair {
+            display: flex;
+            /*   justify-content: flex-end; */
+            align-items: flex-end;
+            /*  flex-direction: column; */
+            margin-right: 3vh;
+        }
+        .repair img {
+            width: 50%;
+        }
+        .repair-text {
+            font-size: 15px;
+            line-height: 1;
+            font-weight: 500;
+            margin-left: 3vh;
+        }
+    }
+
 
 /*Mobile first */
 
