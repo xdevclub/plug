@@ -143,6 +143,7 @@
         }
         .title-social {
             width: auto;
+            margin-left: 0;
         }
         .social {
             margin-top: 3vh;
