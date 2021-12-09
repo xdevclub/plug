@@ -14,7 +14,7 @@ body {
 }
 
 .left {
-    background: url(/img/1500.jpg) no-repeat;
+    background: url(img/1500.jpg) no-repeat;
     width: 14%;
     min-height: 100vh;
 }
