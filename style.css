@@ -1,131 +1,130 @@
-body {
-    width: 100%;
-    margin: auto;
-    /*   font-family: 'CM _ GARDEN _ R'; */
-    font-family: 'Courier New', Courier, monospace;
-    line-height: 1;
-    font-weight: 500;
-}
-
-.container {
-    width: 100%;
-    min-height: 100vh;
-    display: flex;
-}
-
-.left {
-    background: url(img/1500.jpg) no-repeat;
-    width: 14%;
-    min-height: 100vh;
-}
-
-.right {
-    width: 86%;
-    margin-top: 5vh;
-    display: flex;
-}
-
-.title-social {
-    width: 50vw;
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
-}
-
-.h2-text {
-    margin: 1vh;
-    text-align: center;
-}
-
-.right-text {
-    font-size: 37px;
-    color: #171817;
-    margin: 1vh;
-}
-
-.right-text-uppercase {
-    font-size: 37px;
-    text-transform: uppercase;
-    line-height: 1.2;
-    font-weight: 700;
-    color: #171817;
-    margin: 10px 0;
-}
-
-.social {
-    margin: 1vw;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-}
-
-.social-iwt {
-    display: flex;
-    justify-content: center;
-}
-
-.social-ftov {
-    display: flex;
-    justify-content: center;
-    margin: 1vw;
-}
-
-a {
-    margin-left: 2vh;
-}
-
-.repair {
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    flex-direction: column;
-    margin-right: 5vh;
-}
-
-.repair-text {
-    font-size: 27.8px;
-    line-height: 1.2;
-    font-weight: 700;
-    color: #107c10;
-}
-
-.twitter img:hover {
-    background: #000;
-    border-radius: 50%;
-}
-
-.instagram img:hover {
-    background: #000;
-    border-radius: 50%;
-}
-
-.facebook img:hover {
-    background: #000;
-    border-radius: 50%;
-}
-
-.vk img:hover {
-    background: #000;
-    border-radius: 50%;
-}
-
-.ok img:hover {
-    background: #000;
-    border-radius: 50%;
-}
-
-.telegram img:hover {
-    background: #000;
-    border-radius: 50%;
-}
-
-.whatsapp img:hover {
-    background: #000;
-    border-radius: 50%;
-}
-
- /*Mobile first */
+    body {
+        width: 100%;
+        margin: auto;
+        /*   font-family: 'CM _ GARDEN _ R'; */
+        font-family: 'Courier New', Courier, monospace;
+        line-height: 1;
+        font-weight: 500;
+    }
+    
+    .container {
+        width: 100%;
+        min-height: 100vh;
+        display: flex;
+    }
+    
+    .left {
+        background: url(img/1500.jpg) no-repeat;
+        width: 14%;
+        min-height: 100vh;
+    }
+    
+    .right {
+        width: 86%;
+        margin-top: 5vh;
+        display: flex;
+    }
+    
+    .title-social {
+        width: 50vw;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+    
+    .h2-text {
+        margin: 1vh;
+        text-align: center;
+    }
+    
+    .right-text {
+        font-size: 37px;
+        color: #171817;
+        margin: 1vh;
+    }
+    
+    .right-text-uppercase {
+        font-size: 37px;
+        text-transform: uppercase;
+        line-height: 1.2;
+        font-weight: 700;
+        color: #171817;
+        margin: 10px 0;
+    }
+    
+    .social {
+        margin: 1vw;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .social-iwt {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .social-ftov {
+        display: flex;
+        justify-content: center;
+        margin: 1vw;
+    }
+    
+    a {
+        margin-left: 2vh;
+    }
+    
+    .twitter img:hover {
+        background: #000;
+        border-radius: 50%;
+    }
+    
+    .instagram img:hover {
+        background: #000;
+        border-radius: 50%;
+    }
+    
+    .facebook img:hover {
+        background: #000;
+        border-radius: 50%;
+    }
+    
+    .vk img:hover {
+        background: #000;
+        border-radius: 50%;
+    }
+    
+    .ok img:hover {
+        background: #000;
+        border-radius: 50%;
+    }
+    
+    .telegram img:hover {
+        background: #000;
+        border-radius: 50%;
+    }
+    
+    .whatsapp img:hover {
+        background: #000;
+        border-radius: 50%;
+    }
+    
+    .repair {
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        flex-direction: column;
+        margin-right: 5vh;
+    }
+    
+    .repair-text {
+        font-size: 27.8px;
+        line-height: 1.2;
+        font-weight: 700;
+        color: #107c10;
+    }
+    /*Mobile first */
     
     @media screen and (max-width: 479px) {
         /* стили для телефонов - начало */
@@ -180,10 +179,3 @@ a {
             margin-left: 3vh;
         }
     }
-
-
-/*Mobile first */
-
-
-/*
-@media(){}*/
