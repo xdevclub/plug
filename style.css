@@ -8,48 +8,39 @@ body {
 }
 
 .container {
-    /*  background: url(img/Заглушка.jpg) no-repeat; */
-    /*   background-size: cover;
-    background-attachment: fixed; */
     width: 100%;
     min-height: 100vh;
     display: flex;
-    /*  justify-content: center; */
-    /* align-items: center; */
 }
 
 .left {
-    background: url(1500.jpg) no-repeat;
-    /*  background-size: cover; */
+    background: url(/img/1500.jpg) no-repeat;
     width: 14%;
-    /* width: 257px; */
     min-height: 100vh;
-    /* background-color: #252525; */
 }
 
 .right {
     width: 86%;
     margin-top: 5vh;
+    display: flex;
 }
 
 .title-social {
+    width: 50vw;
     display: flex;
-    justify-content: center;
-    align-items: flex-start;
+    justify-content: flex-start;
     flex-direction: column;
 }
 
 .h2-text {
-    /*    padding-top: 20vh; */
-    width: 40vw;
-    /* background-color: blue; */
+    margin: 1vh;
     text-align: center;
 }
 
 .right-text {
     font-size: 37px;
     color: #171817;
-    margin: 10px 0;
+    margin: 1vh;
 }
 
 .right-text-uppercase {
@@ -62,9 +53,7 @@ body {
 }
 
 .social {
-    /*  background-color: rgb(230, 33, 33); */
-    /* height: 35vh; */
-    margin: 2vw;
+    margin: 1vw;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -73,56 +62,17 @@ body {
 
 .social-iwt {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 .social-ftov {
-    width: 25vw;
     display: flex;
-    justify-content: space-between;
-    margin: 2vw;
+    justify-content: center;
+    margin: 1vw;
 }
 
-.social-insta {
-    background: url(insta.png) no-repeat;
-    width: 75px;
-    height: 74px;
-}
-
-.social-what {
-    background: url(what.png) no-repeat;
-    width: 75px;
-    height: 74px;
-}
-
-.social-telega {
-    background: url(telega.png) no-repeat;
-    width: 75px;
-    height: 74px;
-}
-
-.social-face {
-    background: url(face.png) no-repeat;
-    width: 75px;
-    height: 74px;
-}
-
-.social-twit {
-    background: url(twit.png) no-repeat;
-    width: 75px;
-    height: 74px;
-}
-
-.social-ok {
-    background: url(ok.png) no-repeat;
-    width: 75px;
-    height: 74px;
-}
-
-.social-vk {
-    background: url(vk.png) no-repeat;
-    width: 75px;
-    height: 74px;
+a {
+    margin-left: 2vh;
 }
 
 .repair {
@@ -140,29 +90,44 @@ body {
     color: #107c10;
 }
 
-
-/* .main-text {
-    font-size: xx-large;
-    color: black;
+.twitter img:hover {
+    background: #000;
+    border-radius: 50%;
 }
 
-.main-btn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.instagram img:hover {
+    background: #000;
+    border-radius: 50%;
 }
 
-button {
-    width: 200px;
-    height: 100px;
-    margin: 10px;
-    border-radius: 20px;
-    background-color: chartreuse;
-    border: 3px solid darkgreen;
+.facebook img:hover {
+    background: #000;
+    border-radius: 50%;
 }
 
-a {
-    text-decoration: none;
-    color: darkgreen;
-    font-size: x-large;
-} */
+.vk img:hover {
+    background: #000;
+    border-radius: 50%;
+}
+
+.ok img:hover {
+    background: #000;
+    border-radius: 50%;
+}
+
+.telegram img:hover {
+    background: #000;
+    border-radius: 50%;
+}
+
+.whatsapp img:hover {
+    background: #000;
+    border-radius: 50%;
+}
+
+
+/*Mobile first */
+
+
+/*
+@media(){}*/
